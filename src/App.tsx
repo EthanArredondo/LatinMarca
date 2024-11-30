@@ -5,7 +5,7 @@ import Inicio from './views/Inicio';
 
 function App() {
   return (
-    <div className="conteiner">
+    <div>
       <Routes>
         <Route path='/' element={<Inicio />}/>
       </Routes>
