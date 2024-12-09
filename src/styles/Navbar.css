@@ -1,6 +1,6 @@
 .Navbar {
     background: linear-gradient(180deg, rgba(46,95,255,1) 0%, rgba(27,57,153,1) 100%);
-    width: 100%;
+    width: 98vw;
     display: flex; /* Asegúrate de que el contenedor principal sea flex */
     align-items: center; /* Centrar verticalmente */
     justify-content: space-between; /* Espacio entre secciones */

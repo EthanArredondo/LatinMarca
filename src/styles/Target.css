@@ -1,0 +1,27 @@
+.Target {
+    height: 100%;
+    width: 30%;
+}
+
+.Target .imagen {
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.Target .imagen img{
+    width: 80%;
+    max-height: 500px;
+}
+
+.Target .texto{
+    margin: auto;
+    width: 80%;
+}
+
+.Target .texto p{
+    font-size: 20px;
+    font-family: 'Aldrich';
+}
