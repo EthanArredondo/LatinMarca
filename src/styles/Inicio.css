@@ -12,9 +12,9 @@
 
 .Inicio .header .contenido {
     height: 100%;
-    background-image: url('./soft_hard.jpg');
+    background-image: url('./soft_hard_v2.png');
     /* Ruta a tu imagen */
-    background-size: 75vh;
+    background-size: 80vh;
     /* Ajusta la imagen para cubrir todo el elemento */
     background-position: center;
     /* Centra la imagen */
