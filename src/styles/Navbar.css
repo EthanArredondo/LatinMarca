@@ -1,0 +1,60 @@
+.Navbar {
+    background: linear-gradient(180deg, rgba(46,95,255,1) 0%, rgba(27,57,153,1) 100%);
+    width: 98vw;
+    display: flex; /* Asegúrate de que el contenedor principal sea flex */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Espacio entre secciones */
+}
+
+.Navbar .seccion_marca{
+    display: flex;
+    justify-content: left;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.Navbar .seccion_marca .marca{
+    font-size: 2rem;
+    font-family: 'PaytoneOne', sans-serif;
+    color: white;
+    text-shadow: 
+        -4px -4px 4px black,  
+         4px -4px 4px black,
+        -4px  4px 4px black,
+         4px  4px 4px black;
+    font-weight: 100;
+}
+
+.Navbar .seccion_opciones{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-right: 100px;
+
+}
+.Navbar .seccion_opciones .opciones{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar .seccion_opciones .opciones li {
+    margin: 0 20px; 
+    font-size: 1rem;
+    font-family: 'Aldrich';
+    color: white; 
+    cursor: pointer; 
+
+}
+
+
+@font-face {
+    font-family: 'PaytoneOne'; 
+    src: url('../fonts/PaytoneOne.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Aldrich'; 
+    src: url('../fonts/Aldrich.ttf') format('truetype'); 
+}
